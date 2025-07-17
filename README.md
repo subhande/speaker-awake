@@ -1,8 +1,19 @@
 # Speaker Awake
 
-🔊 **Keep Any Speaker Awake** - Electron App
+🔊 **Keep Any Speaker Awake**
 
 A lightweight macOS tray utility that prevents speakers from going to sleep by playing silent or ping audio at configurable intervals. Perfect for keeping Bluetooth speakers, USB DACs, and audio interfaces active.
+
+
+
+## Perfect For
+
+- **Marshall Speakers Keep Alive / Awake** (Action III, Acton, Stanmore, etc.)
+- **Bluetooth Speakers** that auto-sleep after inactivity
+- **USB DACs** and audio interfaces
+- **Studio Monitors** and powered speakers
+- Any audio device that causes delays or pops when waking up
+
 
 ## ✨ Features
 
@@ -15,17 +26,11 @@ A lightweight macOS tray utility that prevents speakers from going to sleep by p
 - 🚀 **Lightweight**: Minimal resource usage, efficient timer management
 - 🔄 **Smart Resume**: Automatically resumes playback when returning to the app
 
-## Perfect For
-
-- **Marshall Speakers Keep Alive / Awake** (Action III, Acton, Stanmore, etc.)
-- **Bluetooth Speakers** that auto-sleep after inactivity
-- **USB DACs** and audio interfaces
-- **Studio Monitors** and powered speakers
-- Any audio device that causes delays or pops when waking up
 
 ## Screenshots
 
 ![Screenshot 1](screenshot.png)
+
 
 ## Installation
 
