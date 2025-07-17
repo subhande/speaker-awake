@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Audio Keepalive</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="container">
+    <h1>Audio Keepalive: Keep Any Speaker Awake</h1>
+    <div id="status">Stopped.</div>
+
+    <div id="controls">
+      <div class="audio-selector-container">
+        <label class="section-label">Audio Type:</label>
+        <div class="radio-group">
+          <label class="radio-label">
+            <input type="radio" name="audioType" value="empty" checked>
+            <span>Silent (Empty)</span>
+          </label>
+          <label class="radio-label">
+            <input type="radio" name="audioType" value="ping">
+            <span>Ping Sound</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="interval-container">
+        <div class="interval-label">
+          <label class="section-label">Interval (seconds):</label>
+          <strong id="intervalValue">5</strong>
+        </div>
+        <input type="range" id="intervalSlider" min="5" max="3600" value="5" step="5" />
+      </div>
+
+      <div class="button-row">
+        <button id="startButton">Start</button>
+        <button id="stopButton" disabled>Stop</button>
+      </div>
+
+      <div class="button-row">
+        <button id="quitButton" class="quit-button">Quit App</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./renderer.js"></script>
+</body>
+</html>

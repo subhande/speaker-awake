@@ -1,0 +1,80 @@
+{
+  "name": "spaker-awake",
+  "version": "1.0.0",
+  "description": "Keep your speakers awake by playing silent audio at configurable intervals",
+  "main": "main.js",
+  "homepage": "https://github.com/yourusername/audio-keepalive",
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "build:mac": "electron-builder --mac",
+    "build:win": "electron-builder --win",
+    "build:linux": "electron-builder --linux",
+    "dist": "electron-builder --publish=never",
+    "create-icon": "node scripts/create-app-icon.js",
+    "build-all": "npm run create-icon && npm run build"
+  },
+  "build": {
+    "appId": "com.yourcompany.audio-keepalive",
+    "productName": "Audio Keepalive",
+    "copyright": "Copyright © 2024 Your Name",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "index.html",
+      "renderer.js",
+      "styles.css",
+      "assets/**/*",
+      "node_modules/**/*",
+      "!assets/app-icon.iconset"
+    ],
+    "mac": {
+      "category": "public.app-category.utilities",
+      "icon": "assets/app-icon.png",
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        }
+      ],
+      "darkModeSupport": true,
+      "hardenedRuntime": false,
+      "gatekeeperAssess": false
+    },
+    "dmg": {
+      "title": "Audio Keepalive ${version}",
+      "window": {
+        "width": 540,
+        "height": 380
+      },
+      "contents": [
+        {
+          "x": 410,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 130,
+          "y": 150,
+          "type": "file"
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "electron-builder": "^24.13.3",
+    "sharp": "^0.34.3"
+  }
+}
