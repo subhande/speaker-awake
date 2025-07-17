@@ -17,7 +17,7 @@ A lightweight macOS tray utility that prevents speakers from going to sleep by p
 
 ## Perfect For
 
-- **Marshall Speakers** (Action III, Acton, Stanmore, etc.)
+- **Marshall Speakers Keep Alive / Awake** (Action III, Acton, Stanmore, etc.)
 - **Bluetooth Speakers** that auto-sleep after inactivity
 - **USB DACs** and audio interfaces
 - **Studio Monitors** and powered speakers
