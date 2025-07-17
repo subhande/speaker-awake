@@ -1,12 +1,12 @@
 {
-  "name": "spaker-awake",
-  "version": "1.0.0",
+  "name": "keep-spaker-awake",
+  "version": "2.1.0",
   "description": "Keep your speakers awake by playing silent audio at configurable intervals",
   "main": "main.js",
-  "homepage": "https://github.com/yourusername/audio-keepalive",
+  "homepage": "https://github.com/subhande/speaker-awake",
   "author": {
-    "name": "Your Name",
-    "email": "your.email@example.com"
+    "name": "Subhan De",
+    "email": "desubhan123@gmail.com"
   },
   "scripts": {
     "start": "electron .",
@@ -19,9 +19,9 @@
     "build-all": "npm run create-icon && npm run build"
   },
   "build": {
-    "appId": "com.yourcompany.audio-keepalive",
-    "productName": "Audio Keepalive",
-    "copyright": "Copyright © 2024 Your Name",
+    "appId": "com.desubhan.keep-speaker-awake",
+    "productName": "Keep Speaker Awake",
+    "copyright": "Copyright © 2024 Subhan De",
     "directories": {
       "output": "dist"
     },
@@ -52,7 +52,7 @@
       "gatekeeperAssess": false
     },
     "dmg": {
-      "title": "Audio Keepalive ${version}",
+      "title": "Keep Speaker Awake ${version}",
       "window": {
         "width": 540,
         "height": 380
