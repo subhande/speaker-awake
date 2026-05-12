@@ -29,6 +29,10 @@ A lightweight macOS menu bar utility that keeps your speakers awake by periodica
 - Persists all settings across launches
 - Native Swift + SwiftUI — minimal CPU and memory footprint
 
+## Supported Speakers
+- Marshall Acton III and All Marshall, JBL, Bose and other Bluetooth speakers that exhibit a sleep delay after periods of silence
+- Any other macOS-compatible audio output device that exhibits a sleep delay after periods of silence
+
 ## Requirements
 
 | | |
