@@ -4,6 +4,21 @@ A lightweight macOS menu bar utility that keeps your speakers awake by periodica
 
 ---
 
+## Screenshots
+
+| Active | Inactive |
+|:---:|:---:|
+| ![Popover – active](screenshots/2.png) | ![Popover – inactive](screenshots/1.png) |
+| Keeping speakers awake | Speakers may sleep |
+
+**Menu bar icons**
+
+| Active | Inactive |
+|:---:|:---:|
+| ![Menu bar icon – active](screenshots/3.png) | ![Menu bar icon – inactive](screenshots/4.png) |
+
+---
+
 ## Features
 
 - Lives in the macOS menu bar — no Dock icon
@@ -60,4 +75,4 @@ SpeakerAwake/
 
 ## License
 
-MIT
+[MIT](LICENSE)

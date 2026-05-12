@@ -7,7 +7,17 @@ Versioning follows [Semantic Versioning](https://semver.org/).
 
 ---
 
-## [1.0.0] — 2026-05-12
+## [0.0.2] — 2026-05-12
+
+### Added
+- MIT License (`LICENSE`)
+
+### Changed
+- README license section now links directly to `LICENSE`
+
+---
+
+## [0.0.1] — 2026-05-12
 
 ### Added
 - Menu bar app with on/off toggle
